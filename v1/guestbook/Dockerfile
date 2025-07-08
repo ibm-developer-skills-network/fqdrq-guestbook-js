@@ -20,7 +20,7 @@ COPY --from=builder /app/package*.json ./
 
 # Copy application code
 COPY server.js ./
-COPY public/ ./public/
+COPY public ./public/
 
 # Create non-root user
 RUN addgroup -g 1001 -S nodejs && \
