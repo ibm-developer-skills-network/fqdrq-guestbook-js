@@ -14,7 +14,7 @@ A simple guestbook web application built with Node.js, Express, and Redis.
 
 ## Prerequisites
 
-- Node.js 16.x or higher
+- Node.js 20.x or higher
 - npm or yarn
 - Redis (optional - will use in-memory storage if not available)
 - Docker (for containerization)
